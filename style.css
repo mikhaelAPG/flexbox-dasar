@@ -7,6 +7,7 @@
     display: flex;
     /* flex-direction: row-reverse; untuk ngatur arah atau direction defaultnya adalah row, (row, row-reverse, column, column-reverse) */
     /* flex-wrap: wrap; kalau udh ga muat bakalan kebawah defaultnya wrap (wrap, reverse wrap) */
+    /* justify-content: flex-start; defaultnya adalah flex-start (flex-start --> mulai dimana, flex-end --> berakhir dimana, center --> di tengah, space-between --> element pertama mepet kiri, elemen terakhir mepet kanan sisanya dibagi rata, space-around --> 1/2 kiri 1/2 kanan, space-evenly --> semuanya sama) */
 }
 
 .container::after {
