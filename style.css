@@ -10,6 +10,7 @@
     /* flex-wrap: wrap; kalau udh ga muat bakalan kebawah defaultnya wrap (wrap, reverse wrap) */
     /* justify-content: flex-start; defaultnya adalah flex-start (flex-start --> mulai dimana, flex-end --> berakhir dimana, center --> di tengah, space-between --> element pertama mepet kiri, elemen terakhir mepet kanan sisanya dibagi rata, space-around --> 1/2 kiri 1/2 kanan, space-evenly --> semuanya sama) */
     /* align-items: flex-start; (flex-start --> rata keatas, flex-end --> rata kebawah, center --> ditengah, strecth --> akan penuh ketika ga dikasih height, base-line --> ngatur rata tengah berdasarkan tulisan yang ada ditengahnya) */
+    /* align-content: flex-start; sama seperti align items tapi hanya berlaku ketika konten lebih dari satu baris (flex-start, flex-end, center, space-between, space-around) */
 }
 
 /* .container div.tiga { */
