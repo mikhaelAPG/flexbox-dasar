@@ -5,7 +5,8 @@
     padding: 5px;
     box-sizing: border-box;
     display: flex;
-    /* flex-direction: row-reverse; untuk ngatur arah atau direction */
+    /* flex-direction: row-reverse; untuk ngatur arah atau direction defaultnya adalah row, (row, row-reverse, column, column-reverse) */
+    /* flex-wrap: wrap; kalau udh ga muat bakalan kebawah defaultnya wrap (wrap, reverse wrap) */
 }
 
 .container::after {
